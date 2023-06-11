@@ -54,7 +54,6 @@
 }
 
 .container {
-  border: 5px solid black;
   padding: 20px;
   justify-content: space-evenly;
   align-items: center;
@@ -67,7 +66,6 @@
 .place {
   width: 320px;
   height: 400px;
-  border: 5px solid red;
   border-radius: 50px;
   text-align: center;
   padding: 10px;
@@ -76,19 +74,26 @@
 .place-img {
   width: 200px;
   height: 200px;
-  border: 5px solid black;
+  border: 10px solid #1b322a;
   border-radius: 50%;
 }
 .place-header {
   margin: 10px 0px;
   /* border: 5px solid red; */
   justify-content: right;
+  font-family: "Grenze", serif;
+  background: #9966cc;
 }
 .place-info {
   /* border: 5px solid green; */
   align-items: flex-end;
   font-family: "Inria Serif", serif;
-  color: #560909;
+  color: white;
+  text-align: justify;
+  background: #2b2d42;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
 }
 
 #footer {
